@@ -6,7 +6,7 @@ def listar_arquivos_e_pastas(diretorio='.'):
     
     with open('lista_arquivos.txt', 'w', encoding='utf-8') as file:
         for pasta in pastas:
-            file.write(pasta + '/\n')  # Indica que é uma pasta
+            file.write(pasta + '\n')  # Indica que é uma pasta
         for arquivo in arquivos:
             file.write(arquivo + '\n')
     
